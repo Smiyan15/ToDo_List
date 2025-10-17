@@ -82,7 +82,7 @@ def update_tasks(tasks):
             else:
                 print("Invalid value.\n")
         else:
-            print("This is Invalid choice.\n")
+            print("Invalid choice.\n")
 
         save_tasks(tasks)
         print(f"{task['title']} has been updated.")
